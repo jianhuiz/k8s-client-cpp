@@ -1,0 +1,10 @@
+*/.idea
+
+go/vendor/
+go/go.a
+go/go.h
+
+cpp/*.o
+cpp/k8s.io/
+cpp/k8s-cpp-client
+cpp/kubecfg-admin.conf
