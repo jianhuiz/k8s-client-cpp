@@ -5,12 +5,12 @@
 #include <string>
 #include <memory>
 
-#include "k8s.io/client-go/pkg/api/v1/generated.pb.h"
+#include "k8s.io/api/core/v1/generated.pb.h"
 
 #include "resource.h"
 #include "../go/go.h"
 
-namespace apiv1 = k8s::io::kubernetes::pkg::api::v1;
+namespace apiv1 = k8s::io::api::core::v1;
 
 class CoreV1 {
 public:

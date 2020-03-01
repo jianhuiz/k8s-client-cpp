@@ -1,6 +1,6 @@
 
 
-#include "k8s.io/client-go/pkg/api/v1/generated.pb.h"
+#include "k8s.io/api/core/v1/generated.pb.h"
 #include "k8s-client/clientset.h"
 
 #include <string>
@@ -8,7 +8,7 @@
 #include <chrono>
 #include <thread>
 
-namespace apiv1 = k8s::io::kubernetes::pkg::api::v1;
+namespace apiv1 = k8s::io::api::core::v1;
 namespace metav1 = k8s::io::apimachinery::pkg::apis::meta::v1;
 
 
